@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>My todo List</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="todos-container">
       <div class="header">
         <div class="title">My Todo List</div>
         <div class="task-input">
-          <input type="text" placeholder="Add a new task" />
-          <button>Add</button>
+          <input type="text" placeholder="Add a new task" id="txtinput" />
+          <button onclick="addtodo()">Add</button>
         </div>
       </div>
       <hr />
